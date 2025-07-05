@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { CiMenuBurger } from "react-icons/ci";
 import Button from "./Button";
 
