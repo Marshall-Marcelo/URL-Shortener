@@ -8,6 +8,10 @@ import Card from "../components/Card";
 import CardIcon from "../components/CardIcon";
 import Footer from "../components/Footer";
 import Result from "../components/Result";
+import illustration from "../assets/illustration-working.svg";
+import brand_recognition from "../assets/icon-brand-recognition.svg";
+import detailed_records from "../assets/icon-detailed-records.svg";
+import fully_customizable from "../assets/icon-fully-customizable.svg";
 
 const MainLayout = () => {
   type UrlPair = {
@@ -63,7 +67,7 @@ const MainLayout = () => {
         <div className="flex flex-col gap-10 justify-center">
           <Navbar />
           <div className="flex flex-col items-center justify-between gap-2 md:flex-row-reverse md:items-start">
-            <img className="md:w-2/5" src="/illustration-working.svg" alt="" />
+            <img className="md:w-2/5" src={illustration} alt="" />
             <div className="flex flex-col gap-4 items-center w-full md:w-1/2 md:items-start">
               <span className="text-3xl text-center md:text-[55px] md:text-start md:leading-tight font-bold">
                 More than just shorter links
@@ -96,7 +100,7 @@ const MainLayout = () => {
         </div>
         <div className="flex flex-col gap-20 md:flex-row">
           <Card>
-            <CardIcon imagePath="/icon-brand-recognition.svg" />
+            <CardIcon imagePath={brand_recognition} />
             <Title>Brand Recognition</Title>
             <Desc>
               Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil
@@ -104,7 +108,7 @@ const MainLayout = () => {
             </Desc>
           </Card>
           <Card>
-            <CardIcon imagePath="/icon-detailed-records.svg" />
+            <CardIcon imagePath={detailed_records} />
             <Title>Detailed Records</Title>
             <Desc>
               Gain insights into who is clicking your links. Knowing when and where people engage with your content
@@ -112,7 +116,7 @@ const MainLayout = () => {
             </Desc>
           </Card>
           <Card>
-            <CardIcon imagePath="/icon-fully-customizable.svg" />
+            <CardIcon imagePath={fully_customizable} />
             <Title>Fully Customizable</Title>
             <Desc>
               Improve brand awareness and content discoverability through customizable links, supercharging audience

@@ -1,8 +1,8 @@
 import React from "react";
-import facebook from "/icon-facebook.svg";
-import twitter from "/icon-twitter.svg";
-import pinterest from "/icon-pinterest.svg";
-import instagram from "/icon-instagram.svg";
+import facebook from "../assets/icon-facebook.svg";
+import twitter from "../assets/icon-twitter.svg";
+import pinterest from "../assets/icon-pinterest.svg";
+import instagram from "../assets/icon-instagram.svg";
 
 interface FooterProps {
   label?: string;
